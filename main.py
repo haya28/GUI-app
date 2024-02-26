@@ -23,8 +23,8 @@ class CalculatorWindow(QMainWindow):
             ("－", self.subtraction),
             ("×", self.multiplication),
             ("÷", self.division),
-            ("積分", self.differentiate),
-            ("微分", self.integrate)
+            ("微分", self.differentiate),
+            ("積分", self.integrate)
         ]
 
         for text, function in buttons:
